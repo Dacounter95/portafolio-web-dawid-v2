@@ -211,19 +211,19 @@ body {
 
 .blog {
 
-    padding: 0 100px;
-    position: relative;
-}
-
-.blog-content {
-
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
     text-align: left;
 }
+
 
 .blog h4 {
 
     font-size: 55px;
-    line-height: 0px;
+    line-height: 30px;
     color: #101010;
     text-transform: uppercase;
     padding: 5px;
@@ -232,14 +232,15 @@ body {
 
 }
 
-.blog h5 {
+.blog h2 {
 
     font-size: 25px;
-    line-height: 70px;
+    line-height: 30px;
     color: #101010;
     text-transform: uppercase;
     padding: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    text-align: left;
 
 }
 

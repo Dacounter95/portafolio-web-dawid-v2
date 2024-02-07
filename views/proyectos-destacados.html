@@ -6,62 +6,159 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio | proyectos-destacados</title>
     <link rel="stylesheet" href="../styles/styles.css">
+
+    <link rel="stylesheet" href="../styles/bootstrap/css/bootstrap.min.css">
 </head>
 
 
 <body>
 
-    <header class="header">
-        <div class="menu container">
-            <a href="#" class="logo">Dawid.</a>
-            <input type="checkbox" id="menu" />
-            <label for="menu">
-                <img src="../image/menu icono.png" class="menu icono" alt="">
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="../index.html">home</a></li>
-                    <li><a href="mi-experiencia-laboral.html">mi experiencia laboral</a></li>
-                    <li><a href="proyectos-destacados.html">proyectos destacados</a></li>
-                    <li><a href="./Herramientas-utilizadas.html">Herramientas utilizadas</a></li>
-                    <li><a href="Sobre-mí.html">Sobre mí</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header-content container">
-            <h1>¡Hola!</h1>
-            <h2>Soy David</h2>
-            <p class="txt-p">Soy un diseñador ux/ui que busca ofrecer ideas creativas
-                que brinden soluciones de impacto para las empresas.
-            <p>
-                <a href="Contactame.html" class="btn-1">Contactame</a>
-        </div>
-    </header>
+<header class="header">
+    <div class="menu container">
+        <a href="#" class="logo">Dawid.</a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+            <img src="../image/menu icono.png" class="menu icono" alt="">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="mi-experiencia-laboral.html">mi experiencia laboral</a></li>
+                <li><a href="proyectos-destacados.html">proyectos destacados</a></li>
+                <li><a href="Sobre-mí.html">Sobre mí</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header-content container">
+        <h1>¡Hola!</h1>
+        <h2>Soy David</h2>
+        <p class="txt-p">Soy un diseñador ux/ui que busca ofrecer ideas creativas
+            que brinden soluciones de impacto para las empresas.
+        <p>
+            <a href="Contactame.html" class="btn-1">Contactame</a>
+    </div>
+</header>
     <main class="servicios-content">
-        <h2 class="title">Landing page para farmauna</h2>
-        <div>
-            <img height="300px" width="250px" src="../image/Captura de pantalla 2023-12-11 014246.png" alt="">
-            <img height="300px" width="250px" src="../image/farmauna1.png" alt="">
-            <img height="300px" width="250px" src="../image/farmauna2.png" alt="">
-            <img height="300px" width="250px" src="../image/farmauna 4.png" alt="">
-        </div>
-        <h2 class="title">Software para KLOG</h2>
-        <div>
-            <img height="160px" width="300px" src="../image/imagen 2 klog.png" alt="">
-            <img height="160px" width="300px" src="../image/klogimagen.png" alt="">
-            <img height="160px" width="300px" src="../image/klog4.png" alt="">
-            <img height="160px" width="300px" src="../image/imagen 3 klog.png" alt="">
-        </div>
+        
+        <section class="mb-5 py-2">
+            <h2 class="fs-1 fw-bold text-center">Landing page para farmauna</h2>
+            <!-- Autoplaying carousels  -->
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="h-100 w-100 d-flex justify-content-center align-items-center">
+                        <img class="w-50 h-100" src="../image/Captura de pantalla 2023-12-11 014246.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                   <div class="h-100 w-100 d-flex justify-content-center align-items-center">
+                        <img class="w-50 h-100" src="../image/farmauna1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="h-100 w-100 d-flex justify-content-center align-items-center">
+                        <img class="w-50 h-100" src="../image/farmauna2.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="h-100 w-100 d-flex justify-content-center align-items-center">
+                        <img class="w-50 h-100" src="../image/farmauna 4.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon bg-black rounded " aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon bg-black rounded" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
 
-        <h2 class="title">Software para SANIPES</h2>
-        <div>
-            <img height="300px" width="250px" src="../image/SANIPES 1.png" alt="">
-            <img height="300px" width="250px" src="../image/SANIPES3.png" alt="">
-            <img height="300px" width="250px" src="../image/SANIPES 4.png" alt="">
-            <img height="300px" width="250px" src="../image/SANIPES3.png" alt="">
-        </div>
-        </div>
+               
+        <section class="mb-5 py-2">
+            <h2 class="fs-1 fw-bold text-center">Software para KLOG</h2>
+            <!-- Autoplaying carousels  -->
+            <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="w-100 d-flex justify-content-center align-items-center">
+                        <img class="w-100"  src="../image/imagen 2 klog.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                   <div class="w-100 d-flex justify-content-center align-items-center">
+                     <img class="w-100"  src="../image/klogimagen.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="w-100 d-flex justify-content-center align-items-center">
+                        <img class="w-100"  src="../image/klog4.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="w-100 d-flex justify-content-center align-items-center">
+                        <img class="w-100"  src="../image/imagen 3 klog.png" alt="">
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon  bg-black rounded" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-black rounded" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
+        </section>
 
+            <!-- <div>
+                <img height="300px" width="250px" src="../image/Captura de pantalla 2023-12-11 014246.png" alt="">
+                <img height="300px" width="250px" src="../image/farmauna1.png" alt="">
+                <img height="300px" width="250px" src="../image/farmauna2.png" alt="">
+                <img height="300px" width="250px" src="../image/farmauna 4.png" alt="">
+            </div> -->
+      
+
+            <section class="mb-5 py-2">
+                <h2 class="fs-1 fw-bold text-center">Software para SANIPES</h2>
+                <!-- Autoplaying carousels  -->
+                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner h-100 w-100">
+                      <div class="carousel-item active">
+                        <div class="h-100 w-100 d-flex justify-content-center align-items-center">
+                            <img class="w-50 h-100" width="250px" src="../image/SANIPES 1.png" alt="">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                       <div class="h-100 w-100 d-flex justify-content-center align-items-center">
+                        <img class="w-50 h-100" width="250px" src="../image/SANIPES3.png" alt="">
+                      </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="h-100 w-100 d-flex justify-content-center align-items-center">
+                            <img class="w-50 h-100" width="250px" src="../image/SANIPES 4.png" alt="">
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="h-100 w-100 d-flex justify-content-center align-items-center">
+                            <img class="w-50 h-100" width="250px" src="../image/SANIPES3.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-black  rounded " aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-black rounded " aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                  </div>
+            </section>
     </main>
 
     <footer class="footer">
@@ -71,7 +168,6 @@
                 <li> <a href="../index.html">home</a></li>
                 <li> <a href="../Paginas/mi-experiencia-laboral.html">Mi experiencia laboral</a></li>
                 <li> <a href="proyectos-destacados.html">Proyectos destacados</a></li>
-                <li> <a href="../views/Herramientas-utilizadas.html">Herramientas utilizadas</a> </li>
                 <li> <a href="../Paginas/Sobre-mí.html">Sobre mí</a></li>
             </nav>
         </ul>
@@ -86,8 +182,7 @@
 
 
 
-
+    <script src="../styles/bootstrap/js/bootstrap.min.js"></script>
 </body>
-
 
 </html>

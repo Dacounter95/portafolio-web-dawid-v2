@@ -18,7 +18,7 @@ $colors: (
  }
 
 .li-responsive__color{
-    @include color-styles(map-get($colors,primary));
+    @include color-styles(#030910);
 }
 
 .ul-responsive_border{

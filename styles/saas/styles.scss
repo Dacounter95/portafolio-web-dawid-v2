@@ -5,47 +5,47 @@
 
 
 // Maps
-$colors: (
-  primary: #030910,
-  secondary: #ffffff,
-);
+// $colors: (
+//   primary: #030910,
+//   secondary: #ffffff,
+// );
 
-// Mixins
-@mixin color-styles($color) {
-    @media (max-width: 991px) {
-        background-color: $color;
-    }
- }
+// // Mixins
+// @mixin color-styles($color) {
+//     @media (max-width: 991px) {
+//         background-color: $color;
+//     }
+//  }
 
-.li-responsive__color{
-    @include color-styles(#030910);
-}
+// .li-responsive__color{
+//     @include color-styles(map-get($colors,primary));
+// }
 
-.ul-responsive_border{
+// .ul-responsive_border{
     
     
-    @media (max-width: 991px)  {
-        border-style: solid;
-        border-radius: 5px;
-        border-width: 2px;
-        border-color: #ffffff
-    }
-}
+//     @media (max-width: 991px)  {
+//         border-style: solid;
+//         border-radius: 5px;
+//         border-width: 2px;
+//         border-color: #ffffff
+//     }
+// }
 
-.header-servicios-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+// .header-servicios-div {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
 
-// Extends
-.header-servicios-responsive{
-    @extend .header-servicios-div;
+// // Extends
+// .header-servicios-responsive{
+//     @extend .header-servicios-div;
 
-    @media (max-width: 991px)  {
-     flex-wrap: wrap;
-    }
-}
+//     @media (max-width: 991px)  {
+//      flex-wrap: wrap;
+//     }
+// }
 
 
 // @import "../node_modules/bootstrap/scss/bootstrap";

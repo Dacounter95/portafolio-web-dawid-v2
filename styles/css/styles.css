@@ -1,8 +1,29 @@
 @charset "UTF-8";
-.hola {
-  background-color: white;
-  border-radius: 5px;
-  color: blue;
+@media (max-width: 991px) {
+  .li-responsive__color {
+    background-color: #030910;
+  }
+}
+
+@media (max-width: 991px) {
+  .ul-responsive_border {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #ffffff;
+  }
+}
+
+.header-servicios-div, .header-servicios-responsive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .header-servicios-responsive {
+    flex-wrap: wrap;
+  }
 }
 
 /*!
@@ -12,20 +33,8 @@
  */
 :root,
 [data-bs-theme=light] {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
-  --bs-black: #000;
-  --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
+  --bs-primary: #030910;
+  --bs-secondary: #ffffff;
   --bs-gray-100: #f8f9fa;
   --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;

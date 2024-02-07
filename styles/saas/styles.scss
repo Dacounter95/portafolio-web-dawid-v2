@@ -3,12 +3,49 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
-.hola{
-    background-color: white;
-    border-radius: 5px;
-    color: blue;
+
+// Maps
+$colors: (
+  primary: #030910,
+  secondary: #ffffff,
+);
+
+// Mixins
+@mixin color-styles($color) {
+    @media (max-width: 991px) {
+        background-color: $color;
+    }
+ }
+
+.li-responsive__color{
+    @include color-styles(map-get($colors,primary));
 }
 
+.ul-responsive_border{
+    
+    
+    @media (max-width: 991px)  {
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 2px;
+        border-color: #ffffff
+    }
+}
+
+.header-servicios-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Extends
+.header-servicios-responsive{
+    @extend .header-servicios-div;
+
+    @media (max-width: 991px)  {
+     flex-wrap: wrap;
+    }
+}
 
 
 // @import "../node_modules/bootstrap/scss/bootstrap";

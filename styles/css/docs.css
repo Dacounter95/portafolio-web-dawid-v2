@@ -1018,16 +1018,6 @@
   --bs-dropdown-bg: #0c63e4;
   --bs-dropdown-link-active-bg: #084298;
 }
-[data-bs-theme=blue] .btn-secondary {
-  --bs-btn-bg: #3d8bfc;
-  --bs-btn-border-color: rgba(255, 255, 255, 0.25);
-  --bs-btn-hover-bg: #247cfc;
-  --bs-btn-hover-border-color: rgba(255, 255, 255, 0.25);
-  --bs-btn-active-bg: #0b6dfb;
-  --bs-btn-active-border-color: rgba(255, 255, 255, 0.5);
-  --bs-btn-focus-border-color: rgba(255, 255, 255, 0.5);
-  --bs-btn-focus-box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .2);
-}
 
 .skippy {
   background-color: #4c0bce;

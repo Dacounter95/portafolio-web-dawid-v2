@@ -26,6 +26,34 @@
   }
 }
 
+.footer-div__columns {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  .footer-div__columns {
+    display: flex;
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+.footer-contacto__ul {
+  color: orange;
+}
+
+.footer-contacto__li {
+  color: white;
+  list-style-type: disc;
+}
+
+.contactame-formulario__div {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: orange;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors

@@ -47,6 +47,34 @@ $colors: (
     }
 }
 
+.footer-div__columns{
+    display: flex;
+    justify-content: space-between;
+  
+    @media (max-width: 991px)  {
+        display: flex;
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+.footer-contacto__ul{
+    color: orange; 
+}
+
+.footer-contacto__li{
+    color: white;
+    list-style-type: disc;
+    
+}
+
+.contactame-formulario__div{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: orange
+}
+
 
 // @import "../node_modules/bootstrap/scss/bootstrap";
 

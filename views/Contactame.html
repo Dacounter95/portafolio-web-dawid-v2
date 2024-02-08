@@ -70,46 +70,76 @@
         </div>
     </header>
 
-    <main>
-        <h1>Comentame sobre tu proyecto</h1>
-        <form class="form">
-            <div class="mb-3">
-                <p>Nombres y apellidos</p>
-                <input type="email" class="form-control" id="exampleFormControlInput1"
-                    placeholder="Ingresa tu nombre completo">
-                    <p>Empresa</p>
-                <input type="email" class="form-control" id="exampleFormControlInput1"
-                    placeholder="Ingresa el nombre de tu empresa">
-                <p>Teléfono</p>
-                <input  type="email" class="form-control" id="exampleFormControlInput1"
-                    placeholder="Indica tú número de teléfono">
-                <p>Correo</p>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu correo">
-                <div>
-                <p>Descripción de la propuesta de trabajo</p>
-                    <textarea  class="form-control"   name="textarea" id="exampleFormControlInput1" cols="30" rows="10"></textarea>
-                </div>
-        </form>
+    <main class="container">
+     <div class="d-flex justify-content-center align-content-center  my-5">
+        <div class="contactame-formulario__div">
+            <h3 class="fw-bold fs-3 text-center ">Comentame sobre tu proyecto</h3>
+            <form class="form">
+                <div class="mb-3 d-flex flex-column gap-3">
+                  <div >
+                    <p>Nombres y apellidos</p>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Ingresa tu nombre completo">
+                  </div>
+                        <div>
+                            <p>Empresa</p>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Ingresa el nombre de tu empresa">
+                        </div>
+                        <div>
+              <p>Teléfono</p>
+            <input  type="email" class="form-control" id="exampleFormControlInput1"
+            placeholder="Indica tú número de teléfono">
+          </div>
+                   <div>
+                    <p>Correo</p>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu correo">
+                   </div>
+                    <div>
+                    <p>Descripción de la propuesta de trabajo</p>
+                        <textarea  class="form-control "   name="textarea" id="exampleFormControlInput1" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="d-flex justify-content-end">
+                        <button class="  bg-black text-white rounded p-2">Contactar</button>
+                    </div>
+            </form>
+        </div>
+     </div>
         
     </main>
-    <footer class="footer">
-        <h3> David Castro</h3>
-        <ul>
-            <nav class="nav bar">
-                <li> <a href="../index.html">home</a></li>
-                <li> <a href="../Paginas/mi-experiencia-laboral.html">Mi experiencia laboral</a></li>
-                <li> <a href="../Paginas/proyectos-destacados.html">Proyectos destacados</a></li>
-                <li> <a href="Herramientas-utilizadas.html">Herramientas utilizadas</a> </li>
-                <li> <a href="../Paginas/Sobre-mí.html">Sobre mí</a></li>
-            </nav>
-        </ul>
-        <p>
-            Contacto
-            923416407
-            david.castro0195@gmail.com
-            Copyrights. David Castro. All rigths reserved 2023
-        </p>
 
+    <footer class="footer m-0 py-5 ">
+        <div class="container">
+            <div class="d-flex flex-column  gap-2 ">
+                <h3> David Castro - UX Designer</h3>
+                <div class="footer-div__columns">
+                    <ul class="footer-contacto__ul">
+                        Páginas
+                        <div class="px-4">
+                            <li class="footer-contacto__li"> <a class="text-decoration-none " href="index.html">home</a></li>
+                            <li class="footer-contacto__li"> <a class="text-decoration-none " href="../Paginas/mi-experiencia-laboral.html">Mi experiencia laboral</a></li>
+                            <li class="footer-contacto__li"> <a class="text-decoration-none " href="../Paginas/proyectos-destacados.html">Proyectos destacados</a></li>
+                            <li class="footer-contacto__li"> <a class="text-decoration-none " href="views/Herramientas-utilizadas.html">Herramientas utilizadas</a></li>
+                            <li class="footer-contacto__li"> <a class="text-decoration-none " href="../Paginas/Sobre-mí.html">Sobre mí</a></li>
+                        </div>
+                    </ul>
+                    <ul class="footer-contacto__ul">
+                        Contacto
+                        <div class="px-4">
+                                <li class="footer-contacto__li">923416407</li>
+                                <li class="footer-contacto__li">david.castro0195@gmail.comx</li>
+                        </div>
+                    </ul>
+                    <ul class="footer-contacto__ul">
+                        Redes Sociales
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center  mt-5 ">
+            Copyrights. David Castro. All rigths reserved 2023
+        </div>
     </footer>
 
 <script src="../styles/bootstrap/dist/js/bootstrap.min.js"></script>

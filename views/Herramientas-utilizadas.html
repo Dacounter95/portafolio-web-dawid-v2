@@ -13,7 +13,7 @@
 <body>
     <header class="header">
         <div class="menu container">
-            <a href="#" class="logo">Dawid.</a>
+            <a href="../index.html" class="logo">Dawid.</a>
             <input type="checkbox" id="menu" />
             <label for="menu">
                 <img src="../image/menu icono.png" class="menu icono" alt="">
@@ -64,41 +64,58 @@
             <p class="txt-p">Soy un diseñador ux/ui que busca ofrecer ideas creativas
                 que brinden soluciones de impacto para las empresas.
             <p>
-                <a href="Contactame.html" class="btn-1">Contactame</a>
+                <a href="./Contactame.html" class="btn-1 rounded text-decoration-none ">Contactame</a>
         </div>
     </header>
-    <main class="servicios-content">
-        <h2 class="title">Herramienta de diseño y prototipado: FIGMA </h2>
-        <P> Figma es una herramienta de diseño que me permite bocetar, organizar y plasmar mis ideas en mockups de baja, media y alta fidelidad,
-            para después conectar estos y darle animaciones a los flujos elaborados. Esto con el fin de dar a entender al equipo mis propuestas.
-        </P>
-        <img height="350px" width="420px" src="../image/FIGMA 1.png" alt="">
-        <img height="350px" width="420px" src="../image/FIGMA PANTALLAS.png" alt="">
-        <h2 class="title">Herramientas para organizar mis trabajos</h2>
-        <p> Para organizar mis trabajos según el equipo o la tarea que requiera, utilizo airtable, Notion o Treelo. Estas herramientas me permiten gestionar mis tareas y notificar al equipo el estado de mis actividades.</p>
-        <img height="350px" width="420px" src="../image/TRELLO.png" alt="">
-        <img height="350px" width="420px" src="../image/airtable.png" alt="">
-        <img height="350px" width="420px" src="../image/notion.png" alt="">
+    <main class="servicios-content d-flex gap-4 flex-column ">
+        <div class="mb-4 ">
+            <h3 class="fw-bold fs-2 text-center mb-4">Herramienta de diseño y prototipado: FIGMA </h3>
+            <P> Figma es una herramienta de diseño que me permite bocetar, organizar y plasmar mis ideas en mockups de baja, media y alta fidelidad,
+                para después conectar estos y darle animaciones a los flujos elaborados. Esto con el fin de dar a entender al equipo mis propuestas.
+            </P>
+            <img height="350px" width="420px" src="../image/FIGMA 1.png" alt="">
+            <img height="350px" width="420px" src="../image/FIGMA PANTALLAS.png" alt="">
+        </div>
+        <div class="mt-4">
+                <h3 class="fw-bold fs-2 text-center mb-4">Herramientas para organizar mis trabajos</h3>
+                <p> Para organizar mis trabajos según el equipo o la tarea que requiera, utilizo airtable, Notion o Treelo. Estas herramientas me permiten gestionar mis tareas y notificar al equipo el estado de mis actividades.</p>
+                <img height="350px" width="420px" src="../image/TRELLO.png" alt="">
+                <img height="350px" width="420px" src="../image/airtable.png" alt="">
+                <img height="350px" width="420px" src="../image/notion.png" alt="">
+        </div>
     </main>
 
-    <footer class="footer">
-        <h3> David Castro</h3>
-        <ul>
-            <nav class="nav bar">
-                <li> <a href="../index.html">home</a></li>
-                <li> <a href="../Paginas/mi-experiencia-laboral.html">Mi experiencia laboral</a></li>
-                <li> <a href="proyectos-destacados.html">Proyectos destacados</a></li>
-                <li> <a href="Herramientas-utilizadas.html">Herramientas utilizadas</a></li>
-                <li> <a href="../Paginas/Sobre-mí.html">Sobre mí</a></li>
-            </nav>
-        </ul>
-        <p>oog
-            Contacto
-            923416407
-            david.castro0195@gmail.com
+    <footer class="footer m-0 py-5 ">
+        <div class="container">
+            <div class="d-flex flex-column  gap-2 ">
+                <h3> David Castro - UX Designer</h3>
+                <div class="footer-div__columns">
+                    <ul class="footer-contacto__ul">
+                        Páginas
+                        <div class="px-4">
+                            <li class="footer-contacto__li"> <a class="text-decoration-none " href="index.html">home</a></li>
+                            <li class="footer-contacto__li"> <a class="text-decoration-none " href="../Paginas/mi-experiencia-laboral.html">Mi experiencia laboral</a></li>
+                            <li class="footer-contacto__li"> <a class="text-decoration-none " href="../Paginas/proyectos-destacados.html">Proyectos destacados</a></li>
+                            <li class="footer-contacto__li"> <a class="text-decoration-none " href="views/Herramientas-utilizadas.html">Herramientas utilizadas</a></li>
+                            <li class="footer-contacto__li"> <a class="text-decoration-none " href="../Paginas/Sobre-mí.html">Sobre mí</a></li>
+                        </div>
+                    </ul>
+                    <ul class="footer-contacto__ul">
+                        Contacto
+                        <div class="px-4">
+                                <li class="footer-contacto__li">923416407</li>
+                                <li class="footer-contacto__li">david.castro0195@gmail.comx</li>
+                        </div>
+                    </ul>
+                    <ul class="footer-contacto__ul">
+                        Redes Sociales
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center  mt-5 ">
             Copyrights. David Castro. All rigths reserved 2023
-        </p>
-
+        </div>
     </footer>
 
     <script src="../styles/bootstrap/dist/js/bootstrap.min.js"></script>
